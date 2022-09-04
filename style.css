@@ -1,0 +1,251 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-image: url(fitness.jpg);
+background-size: cover;
+
+
+
+}
+div{
+    overflow: auto;
+}
+#gym{
+   
+ float: left;
+ font-size: 20px;
+ position: relative;
+ bottom: 10px;
+ left: 4.2%;
+    
+    color: white;
+}
+span{
+    color: white;
+    text-align: left;
+    position: absolute;
+    top: 12px;
+    left: 3.4%;
+}
+.navbar{    text-align: center;
+ padding:20px ;
+
+
+     background-color: rgba(0, 0, 0, 0.953);
+
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    }
+   
+    a{color: rgb(255, 255, 255);
+        text-decoration: none;
+       
+    }
+    
+    #homeicon{
+       font-size: 14px;
+       position: relative;
+       bottom: 1px;
+padding-right: 5px;
+color: rgb(255, 255, 255);
+    }
+    #about{
+       font-size: 13px;
+       position: relative;
+       bottom: 1px;
+padding-right: 5px;
+color: rgb(255, 255, 255);
+    }
+    #gallery{
+       font-size: 13px;
+       position: relative;
+       bottom: 1px;
+padding-right: 5px;
+color: rgb(255, 255, 255);
+    }
+    #fitness{font-weight: bold;
+       font-size: 15px;
+       position: relative;
+       bottom: 1px;
+padding-right: 4px;
+margin-top: 5px;
+color: rgb(255, 255, 255);
+    }
+
+    i:hover {
+    color:rgb(0, 0, 0); 
+   
+    }
+    
+  ul{position: absolute;
+   left: 34.5%;
+ top:-0.8%;
+
+    width: 470px;
+    padding-left:5px;
+    padding: 1px;
+    margin: 3px;
+ 
+  
+  }
+ 
+  
+    li{
+    font-size: 15px;
+    list-style: none;
+    display: inline-block;
+  color: rgb(255, 255, 255) ;
+    margin: 13px 12px;
+    padding: 7px 9px;
+    font-family:Tahoma;
+    
+}
+
+li:hover{
+    background-color: rgba(255, 255, 255, 0.355);
+    color: rgb(255, 255, 255);
+    border-radius: 2px 3.5px 2px 3.5px;
+    transition: 0.5s;
+}
+
+.button{
+    float: right;
+   color: rgb(255, 255, 255);
+   position: relative;
+   bottom: 53.5px;
+   right: 17px;
+   display: inline-flex;
+   background-color: rgba(0, 0, 0, 0.893);
+}
+
+.button{ font-size: 15px;
+    padding: 7px 9px;
+    border: 0px;
+    font-family: Helvetica, sans-serif;
+    border-radius: 6px;
+    margin: 5.5px 10px;
+    background-color: rgba(255, 255, 255, 0.156);
+}
+
+.button:hover{
+    border-radius: 6px;
+    background-color: rgba(225, 219, 219, 0.363);
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+} /* navigation styling ends*/
+
+/* main body styling*/
+
+form{background-color: rgba(219, 219, 219, 0.277);
+    width: 500px;
+    height: 450px;
+
+    position: absolute;
+    top: 22%;
+    left: 6%;
+    color: rgb(0, 0, 0);
+    border-radius:15px 25px 15px 25px ;
+    box-shadow: 0.4px 0.9px 7px rgba(0, 0, 0, 0.756),
+  0.4px 0.6px 5px rgba(17, 17, 17, 0.875);
+   
+  
+}
+.register{ font-size: 20px;
+margin: 25px;
+font-weight: bold;
+}
+form:hover{
+    background-color: rgba(255, 255, 255, 0.664);
+    transition: 0.5s;
+}
+
+#mainform{
+    text-align: center;
+ position: absolute;
+ justify-content: center;
+ left: 5%;
+ top: 17%;
+  
+}
+h2{
+    position: absolute;
+    left: 25%;
+    top: 1%;
+}
+input{background-color: rgba(255, 255, 255, 0.311);
+    font-size:18px;
+    color: rgb(0, 0, 0);
+
+    font-family: 'Times New Roman';
+    border: 1px solid rgba(0, 0, 0, 0.889);
+    border-radius: 5px;
+ margin-left: 10px;
+    
+}
+
+
+#name{
+    margin-left: 92px;
+}
+.name{
+    position: relative;
+    left: 10%;
+}
+#age{
+    margin-left: 110px;
+}
+#weights{
+    margin-left: 14px;
+}
+#height{
+    margin-left: 16px;
+}
+#Phone{
+    margin-left: 62px;
+}
+.submit{ border: 1px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.397);
+    color: rgb(233, 233, 233);
+    padding: 5px 8px;
+    font-size: 16px;
+    border-radius: 3px;
+}
+.submit:hover{border: 1px solid rgb(253, 253, 253);
+    background-color: rgba(0, 0, 0, 0.312);
+}
+section{ width: 600px;
+    box-sizing: border-box;
+height: 450px; 
+padding: 0;
+    position: absolute;
+    top: 23%;
+    border-top-left-radius:25px ;
+    border-bottom-left-radius: 25px;
+ right: 1px;
+    color: rgb(22, 167, 97);
+    background-color:rgba(0, 0, 0, 0.644);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading{
+    padding-left: 74px;
+    padding-top: 5px;
+    float: left;
+    font-size: 25px;
+
+}
+
+section:hover{
+    background-color:rgb(0, 0, 0);
+    transition: 2s;
+}
+p {
+font-size: large;
+text-align: center;
+color: rgb(22, 167, 97);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
